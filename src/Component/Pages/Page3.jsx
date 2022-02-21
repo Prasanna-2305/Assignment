@@ -4,8 +4,8 @@ export default class Page3 extends Component {
     state = {
         Hayabusa: false,
         Mt15: false,
-        Pulsar:false,
-        RoyalEnfield:false
+        Pulsar: false,
+        RoyalEnfield: false
     }
     onChange = e => {
         if (e.target.type === "checkbox")
@@ -14,7 +14,7 @@ export default class Page3 extends Component {
             this.setState({ [e.target.name]: e.target.value })
     }
     render() {
-        const { Hayabusa, Mt15,Pulsar,RoyalEnfield } = this.state;
+        const { Hayabusa, Mt15, Pulsar, RoyalEnfield } = this.state;
         return (
             <div>
                 <center>

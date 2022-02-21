@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function 
-Hom() {
+Home() {
   return (
     <div>
         <h1>

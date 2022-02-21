@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-
 import "./Page1.css";
 
 export default function Page1() {
-
   const list = [
     "Banana",
     "Apple",
@@ -30,7 +28,7 @@ export default function Page1() {
   return (
     <div className="page">
       <div>
-       <input name="query" type="text" placeholder="Search query " onChange={handleSearch} />
+        <input name="query" type="text" placeholder="Search query " onChange={handleSearch} />
       </div>
       {filterList &&
         filterList.map((item) => (

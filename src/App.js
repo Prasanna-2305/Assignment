@@ -1,16 +1,16 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Navbar from './Cmp/Navbar';
-import Page1 from './Cmp/Page1';
-import Page2 from './Cmp/Page2';
-import Page3 from './Cmp/Page3';
-import Home from './Cmp/Home';
+import Navbar from './Component/Navbar/Navbar';
+import Page1 from './Component/Pages/Page1';
+import Page2 from './Component/Pages/Page2';
+import Page3 from './Component/Pages/Page3';
+import Home from './Component/Home/Home';
 
 function App() {
   return (
     <div>
-     <Router>
+    <Router>
     <Navbar />
     <Routes>
     <Route  exact path ="/" element ={<Home />} />
